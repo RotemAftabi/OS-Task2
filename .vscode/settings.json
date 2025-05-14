@@ -6,7 +6,11 @@
         "sleeplock.h": "c",
         "fcntl.h": "c",
         "user.h": "c",
-        "stat.h": "c"
+        "stat.h": "c",
+        "proc.h": "c",
+        "spinlock.h": "c",
+        "param.h": "c",
+        "stddef.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled",
 }

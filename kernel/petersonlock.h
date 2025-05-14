@@ -1,10 +1,12 @@
-#ifndef _PETERSONLOCK_H_
-#define _PETERSONLOCK_H_
-
 struct petersonlock {
   int flag[2];
   int turn;
   int in_use;
 };
 
-#endif // _PETERSONLOCK_H_
+void init_peterson_locks(void);
+int peterson_create(void);
+int peterson_acquire(int lock_id, int role);
+int peterson_release(int lock_id, int role);
+int peterson_destroy(int lock_id);
+

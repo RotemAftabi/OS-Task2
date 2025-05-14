@@ -4,9 +4,7 @@
 #define O_CREATE  0x200
 #define O_TRUNC   0x400
 
-typedef unsigned int uint;
-typedef unsigned short ushort;
-typedef unsigned char uchar;
+#include "kernel/types.h"
 #include "user.h"
 
 #define FNAME "tournament_test.txt"
