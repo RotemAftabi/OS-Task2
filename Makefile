@@ -135,7 +135,6 @@ UPROGS=\
 	$U/_zombie\
 	$U/_locktest\
 	$U/_tournament\
-	$U/_petest\
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)
